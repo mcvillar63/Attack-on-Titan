@@ -1,0 +1,105 @@
+:root {
+    /* color of text for walter white's activity.
+       If you decide not to duplicate & create your own,
+       don't forget to change the variable name & value */
+    --yellow: #fff54f;
+    --myfavoritecolor: #006441;
+}
+
+/* edit the body as you'd like, color, images, aligning */
+
+body {
+    background-color: rgb(75, 75, 187);
+    text-align: center;
+
+}
+
+/*** TITLES ***/
+h1 {
+    /* font size of text for walter white's activity.
+     If you decide not to duplicate & create your own,
+     don't forget to change the font size */
+    text-align: center;
+    font-size: 100px;
+
+}
+
+h2 {
+    /* font size & family of text for walter white's activity.
+     If you decide not to duplicate & create your own,
+     don't forget to change the font size & family */
+    font-size: 40px;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+}
+
+
+/*** IMAGES ***/
+/* Your row = container
+     Your column = items
+     Hint: look into: display, flex-wrap
+     justy-content, align-items, gap*/
+
+#firstRow img,
+#secondRow img,
+#thirdRow img,
+#fourthRow img,
+{
+height: 300px;
+}
+
+img {
+    height: 100px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px
+}
+
+.column {
+    margin: 25px 0px;
+}
+
+
+/*** LOLLIPOP CONTENT ***/
+p {
+    /* font size of text for walter white's activity.
+     If you decide not to duplicate & create your own,
+     don't forget to change the font size */
+    font-size: 25px;
+    margin: 0px 10;
+}
+
+
+
+/*** BUTTONS & SQUARE ***/
+/* To align your images without text-align
+     Look into display block & box model */
+
+/* You can give divs a property of height */
+
+
+
+/*** FOOTER ***/
+/* To remove the bullet pts, look into list-style-type
+     To have them all in one line, look into display inline */
+
+footer li,
+footer a:visited {
+    color: white;
+    font-family: comic 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style-type: none;
+
+    display: inline;
+    padding: 40px 30px;
+
+}
+
+footer p {
+    color: black;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
